@@ -1,0 +1,51 @@
+.Banner-Category{
+    margin: 10px 50px;
+    width: 95%;
+    object-fit: cover;
+}
+#content{
+    margin: 10px 50px;
+    display: grid;
+    grid-template-columns: 17% auto;
+}
+
+.content-sideBar-title{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.content-sideBar-option{
+    list-style: none;
+    font-size: 1rem;
+}
+.content-sideBar-{
+    margin: 10px 0;
+}
+.content-product-title{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.content-product-item{
+    display: grid;
+    grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3) ;
+}
+.content-product-detail{
+    margin-right: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.content-product-item-img{
+    object-fit: cover;
+    width: 100%;
+}
+.content-product-describ{
+    text-align: center;
+}
+.content-produce-item-category{
+    margin-top: 20px;
+   color: #ccc;
+}
+.content-produce-name{
+    font-weight: 500;
+}

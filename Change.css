@@ -1,0 +1,53 @@
+.content-change{
+    margin: 10px 50px;
+}
+.content-change-title{
+    /* display: flex;
+    justify-content: space-between;
+    /* grid-template-columns:repeat(9,11%) ; */
+    display: grid;
+    border-bottom: 1px solid black; 
+    padding: 10px 0 20px 0;
+    grid-template-columns:5% repeat(8,12%) ;
+    gap: 5px;
+    text-align: center;
+    
+}
+.content-change-product-item{
+        /* display: flex;
+        align-items: center;
+    justify-content: space-between;
+    /* grid-template-columns:repeat(9,11%) ; */
+    border-bottom: 1px solid black; 
+    display: grid;
+    padding: 20px 0 20px 0;
+    grid-template-columns:5% repeat(8,12%) ;
+    gap: 5px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+.content-change-product-item-image{
+    height: 40px ;
+    width: 40px;
+   
+}
+.content-change-header-title{
+    max-width: 100px;
+    display: flex;
+    color: white;
+    border-radius: 5px;
+    background-color: #183153;
+    padding: 5px 10px;
+    display: block;
+    margin: 10px 0;
+    text-decoration: none   ;
+    font-size: 1.4rem;
+}
+.icon-add{
+    font-size: 1.2rem;
+}
+/* INSERT INTO `manageproduce` (`ID`, `Name`, `Price`, `ImageProduce`, `Amount`, `Genre`, `ProduceCode`) VALUES ('2', 'Milk Fruit', '20', 'cat-4.jpg', '30', 'Canned Food', 'Canned Food');
+INSERT INTO `manageproduce` (`ID`, `Name`, `Price`, `ImageProduce`, `Amount`, `Genre`, `ProduceCode`) VALUES ('0', 'Orange\'s package', '15', 'cat-1.jpg', '20', 'Vegetable', 'OR'); 
+INSERT INTO `manageproduce` (`ID`, `Name`, `Price`, `ImageProduce`, `Amount`, `Genre`, `ProduceCode`) VALUES ('1', 'Mixed Nut', '20', 'cat-2.jpg', '30', 'Fruits and Nut', 'MXN'); */
